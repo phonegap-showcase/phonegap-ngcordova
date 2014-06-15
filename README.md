@@ -1,0 +1,4 @@
+phonegap-ngcordova
+==================
+
+phonegap-ngcordova
