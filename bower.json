@@ -1,0 +1,24 @@
+{
+    "name": "Phonegap ngCordova Showcase",
+    "version": "0.0.1",
+    "homepage": "http://github.com/phonegap-showcase",
+    "authors": [
+        "Stefan Horochovec <stefan.horochovec@gmail.com>"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "snapjs": "*",
+        "fastclick": "~1.0.0",
+        "angular": "~1.2.15",
+        "ngCordova" : "~0.1.2-alpha"
+    },
+    "ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+    ],
+    "devDependencies": {
+    }
+}

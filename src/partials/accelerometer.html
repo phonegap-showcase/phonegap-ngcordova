@@ -1,0 +1,21 @@
+<div class="innerpage">
+    
+    <header>
+        <h1 ng-bind-html="pageItems.title"></ng-bind-html></h1>
+    </header>
+
+    <main>
+        X: {{positionX}} </br> 
+        Y: {{positionY}} </br> 
+        Z: {{positionZ}} </br> 
+        <div class="btn-group btn-group-vertical example">
+            <button class="btn" ng-click="getCurrentAcceleration()">getCurrentAcceleration</button>
+            <button class="btn" ng-click="watchAcceleration()">watchAcceleration</button>
+        </div>    
+    </main>
+
+    <footer>
+        
+    </footer>
+
+</div>

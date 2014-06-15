@@ -1,0 +1,22 @@
+<div class="innerpage">
+    
+    <header>
+        <h1 ng-bind-html="pageItems.title"></ng-bind-html></h1>
+    </header>
+
+    <main>
+        Cordova: {{deviceCordova}} </br> 
+        Platform: {{devicePlatform}} </br> 
+        UUID: {{deviceUUID}} </br>
+        Model: {{deviceModel}} </br>
+        Version: {{deviceVersion}} </br>
+        <div class="btn-group btn-group-vertical example">
+            <button class="btn" ng-click="getDeviceInfo()">getDeviceInfo</button>
+        </div>    
+    </main>
+
+    <footer>
+        
+    </footer>
+
+</div>

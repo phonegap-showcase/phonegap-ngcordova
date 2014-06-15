@@ -1,0 +1,25 @@
+<div class="innerpage">
+    
+    <header>
+        <h1 ng-bind-html="pageItems.title"></ng-bind-html></h1>
+    </header>
+
+    <main>
+        Latitude: {{latitude}} </br> 
+        Longitude: {{longitude}} </br> 
+        Altitude: {{altitude}} </br> 
+        Accuracy: {{accuracy}} </br> 
+        Altitude Accuracy: {{altitudeAccuracy}} </br> 
+        Heading: {{heading}} </br> 
+        Speed: {{speed}} </br> 
+        Timestamp: {{timestamp}} </br>
+        <div class="btn-group btn-group-vertical example">
+            <button class="btn" ng-click="getCurrentPosition()">getCurrentPosition</button>
+        </div>    
+    </main>
+
+    <footer>
+        
+    </footer>
+
+</div>
