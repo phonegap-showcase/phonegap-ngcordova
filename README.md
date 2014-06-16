@@ -24,7 +24,7 @@ This app have a template based on http://phonegapbootcamp.io - Thanks @demianbor
     npm install gulp-jshint
     npm install jshint-stylish
     npm install gulp-rename
-    npm install gulp-saas
+    npm install gulp-sass
     npm install gulp-minify-css
     npm install gulp-notify
     npm install gulp-uglify
