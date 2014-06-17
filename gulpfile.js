@@ -84,8 +84,4 @@ gulp.task('scripts', function () {
     
 });
 
-gulp.task('default', function () {
-    
-    gulp.run('sass', 'html', 'assets', 'fonts', 'bower_components', 'scripts');
-    
-});
+gulp.task('default', ['sass', 'html', 'assets', 'fonts', 'bower_components', 'scripts']);
